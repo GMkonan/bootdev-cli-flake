@@ -1,5 +1,5 @@
 ## Bootdev CLI Nix Flake
-Small Nix Flake that packages [bootdev CLI]()
+Small Nix Flake that packages [bootdev CLI](https://github.com/bootdotdev/bootdev)
 
 This repository also automatically updates for the latest release via CI.
 
@@ -7,7 +7,7 @@ This repository also automatically updates for the latest release via CI.
 
 ```nix
 {
-  inputs.bootdev-cli-flake.url = "github:GMkonan/bootdev-cli-flake";
+  inputs.bootdev.url = "github:GMkonan/bootdev-cli-flake";
 
   # on Nixos configuration
   environment.systemPackages = [ 
